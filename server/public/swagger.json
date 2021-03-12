@@ -1,0 +1,21 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "development environment hostname :  http://localhost",
+    "version": "1.0.0",
+    "title": "API DOC"
+  },
+  "host": "localhost:8001",
+  "basePath": "/",
+  "securityDefinitions": {
+    "bearerAuth": {
+      "name": "Authorization",
+      "type": "apiKey",
+      "in": "header",
+      "bearerFormat": "JWT"
+    }
+  },
+  "schemes": ["http", "https"],
+  "paths": {},
+  "definitions": {}
+}
